@@ -1,0 +1,32 @@
+{
+  "name": "liquid-screen",
+  "version": "0.1.0",
+  "description": "Easy animations.",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Planeshifter/liquid-screen.git"
+  },
+  "keywords": [
+    "animations",
+    "events",
+    "greensock",
+    "jquery"
+  ],
+  "author": "Philipp Burckhardt",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Planeshifter/liquid-screen/issues"
+  },
+  "homepage": "https://github.com/Planeshifter/liquid-screen#readme",
+  "dependencies": {
+    "gsap": "^1.18.0",
+    "jquery": "^2.1.4"
+  },
+  "browser": {
+    "gsap-tween-max": "./node_modules/gsap/src/minified/TweenMax.min.js"
+  }
+}
