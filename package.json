@@ -1,6 +1,6 @@
 {
-  "name": "liquid-screen",
-  "version": "0.1.0",
+  "name": "@planeshifter/liquid-screen",
+  "version": "0.0.1",
   "description": "Easy animations.",
   "main": "lib/index.js",
   "scripts": {
@@ -25,8 +25,5 @@
   "dependencies": {
     "gsap": "^1.18.0",
     "jquery": "^2.1.4"
-  },
-  "browser": {
-    "gsap-tween-max": "./node_modules/gsap/src/minified/TweenMax.min.js"
   }
 }
